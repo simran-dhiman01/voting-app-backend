@@ -4,11 +4,11 @@ This is a backend application for a voting system where users can vote for candi
 ---
 
 # Features
--User sign up and login
--User can view the list of candidates
--User is allowed to vote a candidate only once.
--Admin can manage candidates (add, update, delete)
--Admin is not allowed to vote.
+*User sign up and login
+*User can view the list of candidates
+*User is allowed to vote a candidate only once.
+*Admin can manage candidates (add, update, delete)
+*Admin is not allowed to vote.
 
 ---
 

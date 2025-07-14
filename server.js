@@ -18,6 +18,6 @@ app.use('/vote'  , candidateRoutes);
 connectDb()
 const PORT = process.env.PORT || 3000
 
-app.listen(PORT , (req,res)=>{
+app.listen(PORT , ()=>{
     console.log(`server running on PORT ${PORT}`)
 })

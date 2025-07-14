@@ -18,8 +18,8 @@ router.post('/signup', async (req, res) => {
             })
         }
          // Validate Aadhar Card Number must have exactly 8 digit
-        if (!/^\d{8}$/.test(data.aadharCardNumber)) {
-            return res.status(400).json({ error: 'Aadhar Card Number must be exactly 12 digits' });
+        if (!/^\d{8}$/.test(adharNumber)) {
+            return res.status(400).json({ error: 'Aadhar Card Number must be exactly 8 digits' });
         }
         
         //check if already a user exists 
